@@ -2,7 +2,7 @@
 #define N 4
 using namespace std;
 
-int knight_tour[N][N] = {0};                  // marking all positions as unvisited
+int knight_tour[N][N] = {0};                  // mark all positions as unvisited
 int positions[8][2] = { {1,2}, {2,1}, {2,-1}, {1,-2}, {-1,-2}, {-2,-1}, {-2,1}, {-1,2} };
 
 bool is_valid_move (int i, int j) {
